@@ -12,14 +12,14 @@ export function Header() {
 
     document.querySelector('.currentPageActive')?.classList.remove('currentPageActive');
 
-    if (pagePath === '/ignite-timer') {
+    if (pagePath === '/ignite-timer' || pagePath === '/ignite-timer/') {
       linksNavbar[0].classList.add('currentPageActive');
       return;
     }
 
     linksNavbar[1].classList.add('currentPageActive');
   })
-  
+
   return (
     <HeaderContainer>
       <img src={logoIgnite} alt="" />
