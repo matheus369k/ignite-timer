@@ -6,15 +6,15 @@ import { DefaultLayout } from '../layout/DefaultLayout'
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/ignite-timer',
     element: <DefaultLayout />,
     children: [
       {
-        path: '/',
+        path: '/ignite-timer',
         element: <Home />,
       },
       {
-        path: '/history',
+        path: '/ignite-timer/history',
         element: <History />,
       },
     ],

@@ -95,14 +95,14 @@ export const HistoryListContainer = styled.div`
             padding-right: 1.5rem;
           }
         }
-
-        .emptyListTbodyContainer {
-          height: 25.5rem;
-          overflow-y: auto;
-
-          background: ${(props) => props.theme['gray-700']};
-        }
       }
+    }
+
+    .emptyListTbodyContainer {
+      height: 25.5rem;
+      overflow-y: auto;
+
+      background: ${(props) => props.theme['gray-700']};
     }
   }
 `

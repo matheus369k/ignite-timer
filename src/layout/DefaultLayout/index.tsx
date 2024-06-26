@@ -10,6 +10,8 @@ import { CycleContext } from '../../contexts/CycleContext'
 
 import { DefaultContainer } from './styles'
 
+import imageClock from '../../assets/clock.png'
+
 export function DefaultLayout() {
   const { cycles, currentCycleId } = useContext(CycleContext)
   const navigate = useNavigate()
@@ -25,10 +27,11 @@ export function DefaultLayout() {
     if (currentTimerInProgress) {
       Timeout = setTimeout(
         () => {
-          navigate('/')
+          navigate('/ignite-timer')
 
           iziToast.show({
             theme: 'dark',
+            image: imageClock,
             message: 'A tarefa foi concluído com sucesso!',
             messageColor: `${themeStyles['gray-100']}`,
             backgroundColor: `${themeStyles['gray-700']}`,

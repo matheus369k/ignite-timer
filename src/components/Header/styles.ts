@@ -31,7 +31,7 @@ export const HeaderContainer = styled.header`
         border-bottom-color: ${(props) => props.theme['gray-100']};
       }
 
-      &.active {
+      &.currentPageActive {
         color: ${(props) => props.theme['green-500']};
 
         &:hover {
