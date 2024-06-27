@@ -19,6 +19,8 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: ${(props) => props.theme['gray-900']};
         color: ${(props) => props.theme['gray-300']};
+
+        padding: 1rem;
     }
 
     body, input, textarea, button {
@@ -26,5 +28,11 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
         -webkit-font-smoking: antialiased;  
+    }
+
+    @media (max-width: 768px) {
+        html {
+            font-size: .70rem;
+        }
     }
 `

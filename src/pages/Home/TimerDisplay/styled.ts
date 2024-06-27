@@ -19,6 +19,18 @@ export const TimerDisplayContainer = styled.div`
 
     border-radius: 8px;
   }
+
+  @media (max-width: 600px) {
+    font-size: 5rem;
+
+    justify-content: center;
+
+    margin-top: 5rem;
+
+    span {
+      padding: 1.5rem 1rem;
+    }
+  }
 `
 
 export const SeparatorMinutesHour = styled.div`
