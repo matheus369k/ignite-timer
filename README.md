@@ -36,7 +36,7 @@ Para desenvolver o projeto, recorri às seguintes ferramentas:
 
 O projeto é uma aplicação com o objetivo de ajudar as pessoas a gerenciar o tempo que dedicam a uma tarefa.
 
-Acesse o site Ignite timer aqui 🔗[link]([text](https://matheus369k.github.io/ignite-timer/)).
+Acesse o site Ignite timer aqui 🔗[link](https://matheus369k.github.io/ignite-timer/).
 
 O site foi promovido no modulo 2, do curso de react na 🔗[RocketSeat](https://app.rocketseat.com.br/).
 
