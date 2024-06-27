@@ -14,13 +14,10 @@ export const DefaultContainer = styled.div`
   flex-direction: column;
   gap: 4.5rem;
 
-  @media (min-height: 904px) {
+  @media (min-height: 904px) or (max-width: 769px) {
     min-height: auto;
+    height: max-content;
 
     justify-content: center;
-  }
-
-  @media (max-width: 769px) {
-    min-height: auto;
   }
 `

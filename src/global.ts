@@ -29,10 +29,19 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1rem;
         -webkit-font-smoking: antialiased;  
     }
+    
 
-    @media (max-width: 768px) {
-        html {
-            font-size: .70rem;
-        }
+  @media (min-height: 904px) or (max-width: 769px) {
+    html {
+        font-size: .75rem;
     }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100vh;
+    }
+  }
 `

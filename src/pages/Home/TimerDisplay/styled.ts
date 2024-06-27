@@ -22,13 +22,12 @@ export const TimerDisplayContainer = styled.div`
 
   @media (max-width: 600px) {
     font-size: 5rem;
+    gap: .5rem;
 
     justify-content: center;
 
-    margin-top: 5rem;
-
     span {
-      padding: 1.5rem 1rem;
+      padding: 1.8rem 1rem;
     }
   }
 `

@@ -14,18 +14,20 @@ export const HistoryContainer = styled.main`
 `
 
 export const HistoryListContainer = styled.div`
-  flex: 1;
   overflow: auto;
+  max-width: calc(100vw - 6rem);
+  flex: 1;
 
+  
   table {
-    width: 100%;
     border-collapse: collapse;
-
+    width: 100%;
+    
     min-width: 37.5rem;
 
     tr {
       display: grid;
-      grid-template-columns: 50% 1fr 1fr 1fr;
+      grid-template-columns: 40% 1fr 1fr 1fr;
     }
 
     th {
